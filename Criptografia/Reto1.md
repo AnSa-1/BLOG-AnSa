@@ -25,6 +25,7 @@ Si encuentras “palabra1” y “palabra2” la solución es flag{palabra1_pala
 
 Para poder resolver el reto debemos ir coordenada a coordenada aplicando cada palabra y concatenándola con un guion bajo.
 Por ejemplo, si buscamos página 10, línea 8 y posición 2 la palabra es “querer”. 
+
 ![image](https://user-images.githubusercontent.com/69391590/123652833-8d8a3780-d824-11eb-813d-0feb3814f729.png)
 
 La correspondencia página, línea y posición en el libro proporcionado es la siguiente:  
