@@ -16,5 +16,7 @@ La dificultad de los retos va en aumento y tienen que resolver tareas de diferen
 
 **Clasificación de los Retos**
 
-
-[Criptografia](https://github.com/AnSa-1/CTF/tree/main/Criptografia)
+- [Criptografia](https://github.com/AnSa-1/CTF/tree/main/Criptografia)
+- [Forense](https://github.com/AnSa-1/CTF/tree/main/Forense)
+- [Ingenieria Inversa](https://github.com/AnSa-1/CTF/tree/main/Ingenieria_Inversa)
+- 
