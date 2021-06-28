@@ -53,7 +53,9 @@ okay decompiling xor.pyc
 
 **La función “xor_crypt_string” tiene cuatro argumentos (data, key, encode y decode). Como disponemos explícitamente de la clave y el cifrado xor se emplea en dos direcciones para cifrar y descifrar de igual manera, podemos cambiar el valor decode = True y pasarle el cifrado al programa.**
 
-![image](https://user-images.githubusercontent.com/69391590/123661789-be6e6a80-d82c-11eb-863b-fcd31f222162.png)
+![image](https://user-images.githubusercontent.com/69391590/123662683-97646880-d82d-11eb-8f5d-ed079b059360.png)
+
+![image](https://user-images.githubusercontent.com/69391590/123662739-a4815780-d82d-11eb-90b5-2da202073a51.png)
 
 
 ## PISTAS
