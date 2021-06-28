@@ -22,8 +22,7 @@ Synt:
 - S-13 = f
 - Y-13 = l
 - N-13 =a
-ETC...
-
+- Etcétera
 
 ![image](https://user-images.githubusercontent.com/69391590/123658684-dbee0500-d829-11eb-99cc-7c4a1087ecfc.png)
 
