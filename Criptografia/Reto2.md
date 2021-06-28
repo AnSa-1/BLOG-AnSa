@@ -18,10 +18,10 @@ A simple vista cada palabra tiene la misma longitud del texto original y en la �
  
  Si no tuviéramos conocimiento de estas herramientas online podemos analizar el texto de forma manual aplicando la transposición de caracteres. Escogemos parte de la flag y vamos restando 13 caracteres:  
  
-Synt:  
-S –13 = f
-Y– 13=l  
-N–13= a
+Synt:   
+- S-13 = f
+- Y-13 = l
+- N-13 =a
 ETC...
 
 
