@@ -8,7 +8,7 @@ Los datos os suenan codificados en hexadecimal, pero ... ¿Cómo recomponer esta
 
 Fichero “pcap” descargable.
 
-Abrimos el fichero pcap con Wireshark. Identificamos que ha sido capturado a nivel de protocolo. Para ello, accedemos a  **Estadísticas  ->  Jerarquía de Protocolo **
+Abrimos el fichero pcap con Wireshark. Identificamos que ha sido capturado a nivel de protocolo. Para ello, accedemos a Estadísticas -> Jerarquía de Protocolo 
 
 ![image](https://user-images.githubusercontent.com/69391590/123674902-0d6ecc80-d83a-11eb-9e10-a2a52d96c9c4.png)
 
