@@ -26,6 +26,7 @@ Synt:
 
 ![image](https://user-images.githubusercontent.com/69391590/123658684-dbee0500-d829-11eb-99cc-7c4a1087ecfc.png)
 
+flag{estamos_empezando_a_conocer_algo_de_historia}
 
 ## PISTAS
 
