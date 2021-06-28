@@ -12,8 +12,9 @@ De repente empiezan a recibir pequeñas misiones a través del periódico del ce
 
 La dificultad de los retos va en aumento y tienen que resolver tareas de diferente complejidad. Con la ayuda legal del instituto, que les asesora para permitir auditar algunos activos y trabajando en equipo, su objetivo es poder conocer la identidad de las personas que están enviándoles esos mensajes.
 
-**RETOS 
-[Criptografia]https://github.com/AnSa-1/CTF/tree/main/Criptografia
 
 
+**Clasificación de los Retos**
 
+
+[Criptografia](https://github.com/AnSa-1/CTF/tree/main/Criptografia)
