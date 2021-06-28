@@ -61,6 +61,9 @@ okay decompiling xor.pyc
 ![image](https://user-images.githubusercontent.com/69391590/123662739-a4815780-d82d-11eb-90b5-2da202073a51.png)
 
 
+ flag{tengo_esta_clave_entre_mis_papeles} 
+ 
+
 ## PISTAS
 
 Pista 1: El fichero pyc es compilado en “byte-code”. Usa uncompyle6 para ver el código fuente del programa. 
