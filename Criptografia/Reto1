@@ -1,6 +1,0 @@
-**reto01_Quijote **
-Desde la creación del instituto, algunos alumnos se han encargado de la gestión del periódico local, "El noticiero", donde se intercambian mensajes y escriben artículos didácticos. En uno de los artículos alguien anónim@ ha lanzado un reto. Asegura haber escondido un mensaje en el libro más universal de la literatura, pero solo nos proporciona algunas coordenadas para que las mentes más brillantes del instituto puedan resolverlo.
-
-Datos proporcionados:  Libro: "El quijote de la mancha" (adjunto) 
-Cada una de etas coordenadas pertenece a una palabra, júntalas mediante un guion bajo “_”. 
-Si encuentras “palabra1” y “palabra2” la solución es flag{palabra1_palabra2}. 
