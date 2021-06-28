@@ -30,7 +30,9 @@ Synt:
 ## PISTAS
 
  Pista 1: Los caracteres del texto parecen movidos en el alfabeto. 
+ 
  Pista 2: La transposición de caracteres es de 13 caracteres.
+ 
  Pista 3: Cifrado clásico César o ROT13. 
 
 
