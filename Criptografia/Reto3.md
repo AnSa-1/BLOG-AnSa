@@ -24,6 +24,8 @@ Otra alternativa para resolver este reto es hacer uso de pycdc, herramienta simi
 
 ## CODE PYTHON 
 
+
+```
 Python bytecode 2.7 (62211)
 Decompiled from: Python 3.8.6 (default, Sep 25 2020, 09:36:53)  
 [GCC 10.2.0] 
@@ -49,7 +51,8 @@ print 'Cifrado'
 print xor_crypt_string(secret_data, encode=True) 
 print 'Descifrado' 
 print xor_crypt_string(xor_crypt_string(secret_data, encode=True), decode=True) 
-okay decompiling xor.pyc 
+okay decompiling xor.pyc
+```
 
 **La función “xor_crypt_string” tiene cuatro argumentos (data, key, encode y decode). Como disponemos explícitamente de la clave y el cifrado xor se emplea en dos direcciones para cifrar y descifrar de igual manera, podemos cambiar el valor decode = True y pasarle el cifrado al programa.**
 
