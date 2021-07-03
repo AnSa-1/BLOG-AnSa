@@ -11,8 +11,7 @@ Fichero de texto.
 
 Descargamos el fichero reto27.txt y vemos el contenido
 
-```reto27.txt 
-Vxoskx tobkr jk iolxgju_OPACQ3XGTHYCM2JVLWWM65JYT4WM42RCSBCIG3RHUTVW====KA2ZYPPCMKYZKS HLM4FYQTZMKA3MMPPCSEYZKSHLM4EYQTFBKA3JQPPCMWYZSSPLMOEIQTFBKA3MQPPCSEYZ QFW=KA3JSPPCSSYZSSPLME3YQT3IKA2JUPPAMSYZOTFLMWFYQTHZKA2JIPPAMKYZOSPLMW 3YQTHXKA2JMPPBMWYZQTHLMA2IQTHZKA2ZOPPBMWYZOTFLMWFYQTPAKA2JIPPAMSYZOSPL MWFYQTHZKA2JUPPAMKYZOSPLMA2IQTPAKA2JMPPAMKYZQTHLMA2IQTPAKA2JM===KA3AO===```
+```Vxoskx tobkr jk iolxgju_OPACQ3XGTHYCM2JVLWWM65JYT4WM42RCSBCIG3RHUTVW====KA2ZYPPCMKYZKS HLM4FYQTZMKA3MMPPCSEYZKSHLM4EYQTFBKA3JQPPCMWYZSSPLMOEIQTFBKA3MQPPCSEYZ QFW=KA3JSPPCSSYZSSPLME3YQT3IKA2JUPPAMSYZOTFLMWFYQTHZKA2JIPPAMKYZOSPLMW 3YQTHXKA2JMPPBMWYZQTHLMA2IQTHZKA2ZOPPBMWYZOTFLMWFYQTPAKA2JIPPAMSYZOSPL MWFYQTHZKA2JUPPAMKYZOSPLMA2IQTPAKA2JMPPAMKYZQTHLMA2IQTPAKA2JM===KA3AO= ==```
 
 
 
@@ -30,8 +29,10 @@ Podemos observar un mensaje codificado. En los primeros caracteres aparecen espa
  En la cadena resultante vemos unos primeros caracteres que nos muestra la frase “Primer nivel de cifrado_” loo que nos induce a pensar que los siguientes caracteres están cifrados/codificados con otro algoritmo. Por el formato parece base32 o base64, si decodificamos la cadena en base32 obtenemos el siguiente resultado: 
  
  ``` base32 -d base32_data.txt > base32_decoded.txt ```
- ```cat base32_decoded.txt 
- Bien hecho, otro nivel mas_%59%61%20%73%6f%6c%6f%20%71%75%65%64%61%20%75%6e%6f%5f%66%6c%61%67 %7b%47%43%47%43%43%41%41%41%47%41%43%54%54%54%43%54%54%47%43%54%41%43% 41%43%43%47%41%41%54%54%43%41%54%54%54%43%7D ```
+ 
+ ```cat base32_decoded.txt ```
+ 
+``` Bien hecho, otro nivel mas_%59%61%20%73%6f%6c%6f%20%71%75%65%64%61%20%75%6e%6f%5f%66%6c%61%67 %7b%47%43%47%43%43%41%41%41%47%41%43%54%54%54%43%54%54%47%43%54%41%43% 41%43%43%47%41%41%54%54%43%41%54%54%54%43%7D ```
  
  Obtenemos la cadena en claro “Bien hecho, otro nivel más”. El resto de la cadena parece estar codificado con URLencode, por lo que aplicando el algoritmo de descifrado obtenemos  (https://www.urldecoder.org/): 
 
@@ -43,7 +44,8 @@ Como indica el mensaje, parece que el contenido de la flag es “GCGCCAAAGACTTTC
 
 Si analizamos la cadena de caracteres está formada por las siguientes letras: “GCAT”, que coincide con las letras de las proteínas que forman el ADN (G:Guanina, C: Citosina, A:Adenina y T:Timina), por lo que podemos deducir que está cifrado con DNA Cypher. Con el siguiente script intentams descifrar el contenido:
 
-```  dnadecode.py
+``` cat dnadecode.py```
+``` dnacode.py
 mapping = { 
 'AAA':'a', 
 'AAC':'b', 
@@ -110,6 +112,7 @@ mapping = {
 'TTG':' ', 
 'TTT':'.' 
 } 
+
 string = 'your_strings' 
 def decode_dna( string ): 
     pieces = [] 
@@ -118,11 +121,15 @@ def decode_dna( string ):
         # pieces.append() 
         pieces.append( mapping[piece] ) 
     return "".join(pieces) 
-print decode_dna(string) ```
+print decode_dna(string) 
+```
+
+
 
 Lo ejecutamos: 
-``` python2 dnacode.py
-Much0 Crypt0 ```
+
+
+``` python2 dnacode.py               --->      Much0 Crypt0 ```
 
 Con este texto reconstruimos la flag: flag{Much0 Crypt0} 
 
