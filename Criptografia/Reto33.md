@@ -40,9 +40,9 @@ El primer paso obvio es decodificar el cifrado de bacon para el caso de diferent
  ```BBAAA BAABB AABAA AABAA BAABA ABBBB AABAA BAAAB ABBBA AABAA ```
 ```y t e e s p e r o e ```
 
-Con estos cuatro pasos obtenemos la flag.  yteesperoeneltedelascincosirenglishbacon 
+Con estos cuatro pasos obtenemos la flag{yteesperoeneltedelascincosirenglishbacon}
 
-**Script en Python: 
+## Script en Python: 
 
 ```bacon.py
 # coding=utf-8 
