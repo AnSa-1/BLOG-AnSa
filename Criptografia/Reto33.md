@@ -38,6 +38,7 @@ El primer paso obvio es decodificar el cifrado de bacon para el caso de diferent
  Para obtener la última parte, podemos utilizar de nuevo el cifrado basado en la posición de los caracteres. Si se trata de las primeras 13 letras - A, de lo contrario - B: 
  
  ```BBAAA BAABB AABAA AABAA BAABA ABBBB AABAA BAAAB ABBBA AABAA ```
+ 
 ```y t e e s p e r o e ```
 
 Con estos cuatro pasos obtenemos la flag{yteesperoeneltedelascincosirenglishbacon}
