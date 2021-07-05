@@ -1,5 +1,5 @@
 # BLOG AnSa
-# CTF
+
 CTF Write Ups - Academia Hacker
 
 ![image](https://user-images.githubusercontent.com/69391590/123647153-bfe56600-d81f-11eb-8b07-025f64f935ab.png)
@@ -21,4 +21,3 @@ La dificultad de los retos va en aumento y tienen que resolver tareas de diferen
 - [Forense](https://github.com/AnSa-1/CTF/tree/main/Forense)
 - [Ingenieria Inversa](https://github.com/AnSa-1/CTF/tree/main/Ingenieria_Inversa)
 - 
-Hola me llamao AnSA kskkakakakakkka
