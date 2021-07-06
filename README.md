@@ -1,6 +1,4 @@
-# BLOG AnSa
-
-CTF Write Ups - Academia Hacker
+# CTF Write Ups - Academia Hacker
 
 ![image](https://user-images.githubusercontent.com/69391590/123647153-bfe56600-d81f-11eb-8b07-025f64f935ab.png)
 
